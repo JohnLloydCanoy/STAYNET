@@ -1,4 +1,5 @@
 
+
 @import "tailwindcss";
 
 li{
@@ -26,4 +27,13 @@ transition: background-color 0.3s;
   padding-bottom: 0.5rem; /* Tailwind py-2 */
   border-radius: 0.5rem; /* Tailwind rounded */
   font-weight: bold; /* Tailwind font-bold */
+}
+
+#search:focus::placeholder{
+  opacity: 40%;
+  color: #0051ff;
+}
+#search::placeholder{
+  border-color: #0051ff;
+  transition: transform 0.3s, color 0.3s;
 }
