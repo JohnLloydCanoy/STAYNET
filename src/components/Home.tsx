@@ -1,6 +1,7 @@
 import React from 'react';
 import NavigationBar from './NavigationBar';
 import bgImage from '../assets/BG-Home.png';
+import "./CSS/Home.css";
 
 const Home: React.FC = () => {
     return (
@@ -11,20 +12,20 @@ const Home: React.FC = () => {
         <p style={{ fontSize: '30px', color: 'black' }} className="mt-2 font-bold-black">Your one-stop solution for all your needs.</p>
     </main>
     {/** Input the Recent Boarding House */}
-    <section className="p-4 min-h-screen">
+    <section id="recent" className="p-4 min-h-screen ">
         <h1 className="text-xl font-bold">Recent Boarding Houses</h1>
-        <ul className="mt-2">
-            <li className="border-b border-gray-700 py-2"></li>
-            <li className="border-b border-gray-700 py-2"></li>
-            <li className="border-b border-gray-700 py-2"></li>
+        <ul className="mt-2 ">
+            <li className="  py-2">Boarding House 1</li>
+            <li className=" py-2">Boarding House 2</li>
+            <li className="  py-2">Boarding House 3</li>
         </ul>
     </section>
     <section className="p-4 min-h-screen">
         <h1 className="text-xl font-bold">Featured Boarding Houses</h1>
         <ul className="mt-2">
-            <li className="border-b border-gray-700 py-2"></li>
-            <li className="border-b border-gray-700 py-2"></li>
-            <li className="border-b border-gray-700 py-2"></li>
+            <li className="  py-2">Boarding House 3</li>
+            <li className="  py-2">Boarding House 4</li>
+            <li className="  py-2">Boarding House 5</li>
         </ul>
     </section>
         </div>
