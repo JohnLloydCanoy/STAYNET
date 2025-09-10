@@ -9,22 +9,22 @@ Find Your Perfect Stay, Anytime, Anywhere.
 
 # TECH STACK
 
-**Front-End**
+**Front-End**<br>
 | React | Vite | Typescript | HTML | CSS | Tailwind CSS
 
-**Back-End**
+**Back-End**<br>
 | Spring Boot | Java
 
-**Database**
+**Database**<br>
 MongoDB
 
 
 # Project Layout
 
 **Home**
-
-**Connect With Me**
-Email: canoy.john812@gmail
-Facebook: John Lloyd Canoy
+<br>
+**Connect With Me**<br>
+Email: canoy.john812@gmail<br>
+Facebook: John Lloyd Canoy<br>
 
 **Making something out of NOTHING**
