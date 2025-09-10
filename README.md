@@ -1,1 +1,5 @@
-Hello, This is A program Practice for a renting Boarding House Web
+# Hello, Welcome to StayNet
+## Find Your Perfect Stay, Anytime, Anywhere.
+
+# ABOUT
+
