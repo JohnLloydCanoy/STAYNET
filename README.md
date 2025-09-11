@@ -27,4 +27,12 @@ MongoDB
 Email: canoy.john812@gmail<br>
 Facebook: John Lloyd Canoy<br>
 
+## PERCENT OF COMPLETION
+
+Front-End: 20%
+Back-End: 0%
+Database: 0%
+
+
+
 **Making something out of NOTHING**
