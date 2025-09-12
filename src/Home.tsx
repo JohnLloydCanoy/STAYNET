@@ -1,7 +1,6 @@
 import React from 'react';
-import NavigationBar from './NavigationBar';
-import bgImage from '../assets/BG-Home.png';
-import Options from './Option';
+import bgImage from './assets/BG-Home.png';
+import Options from './components/Option';
 
 const Home: React.FC = () => {
     return (
