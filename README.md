@@ -29,7 +29,7 @@ Facebook: John Lloyd Canoy<br>
 
 ## PERCENT OF COMPLETION
 
-Front-End: 20%
+Front-End: 30%
 Back-End: 0%
 Database: 0%
 
