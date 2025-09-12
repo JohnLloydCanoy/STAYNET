@@ -7,7 +7,6 @@ import NavigationBar from './components/NavigationBar'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <NavigationBar />
     <App />
   <Footer />
   </StrictMode>,
