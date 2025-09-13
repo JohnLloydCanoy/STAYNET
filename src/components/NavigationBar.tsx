@@ -28,8 +28,8 @@ function NavigationBar({ onHomeClick, onAboutClick, onBookNowClick }: Navigation
             </li>
             </ul>
         <div className="flex items-center space-x-4">
-            <button id="signin-button" className="px-3 py-2 rounded transition duration-300 ">
-            <a href="/signin" className="hover:underline">Sign In</a>
+            <button id="signin-button" className="px-3 py-2 rounded transition duration-300 hover:bg-gray-800 hover:text-white ">
+            Sign In
             </button>
             <input
                 id="search"

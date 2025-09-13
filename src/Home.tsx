@@ -12,6 +12,10 @@ const Home: React.FC = () => {
     </main>
     {/** Input the Recent Boarding House */}
     <Options />
+    <main className="text-3xl font-bold main h-screen">
+        <h1 className="text-center">Home</h1>
+        <p className="text-center">We are a team of passionate developers.</p>
+        </main>
     </div>
     );
 };

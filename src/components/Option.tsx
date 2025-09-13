@@ -2,6 +2,8 @@ import React from 'react';
 import "./CSS/Options.css";
 import { useRef } from 'react';
 import Buttons from './Buttons';
+import HouseOption from './HouseOption.tsx';
+import Dorm from '../assets/DormPic.jpg';
 
                 const Options: React.FC = () => {
                     const scrollContainerRef = useRef<HTMLUListElement>(null);
@@ -21,38 +23,45 @@ import Buttons from './Buttons';
                     return (
                         <div>
                             <section id="recent" className="p-4 min-h-screen ">
-                                <h1 className="text-xl font-bold">Recent Boarding Houses</h1>
+                                <h1 className="inline-block px-4 py-2 rounded bg-gray-800 text-white"> HOT OFFERS</h1>
                                 <div className="relative">
                                     <Buttons scrollLeft={scrollLeft} scrollRight={scrollRight} />
                                     <ul 
                                         ref={scrollContainerRef}
-                                        className="mt-2 flex gap-3 overflow-x-auto scrollbar-hide"
+                                        className="mt-2 flex gap-5 overflow-x-auto scrollbar-hide"
                                         style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
                                     >
-                                        <li className="border w-80 h-80 flex items-center justify-center py-2 flex-shrink-0">Boarding House 1</li>
-                                        <li className="border w-80 h-80 flex items-center justify-center py-2 flex-shrink-0">Boarding House 2</li>
-                                        <li className="border w-80 h-80 flex items-center justify-center py-2 flex-shrink-0">Boarding House 3</li>
-                                        <li className="border w-80 h-80 flex items-center justify-center py-2 flex-shrink-0">Boarding House 4</li>
-                                        <li className="border w-80 h-80 flex items-center justify-center py-2 flex-shrink-0">Boarding House 5</li>
-                                        <li className="border w-80 h-80 flex items-center justify-center py-2 flex-shrink-0">Boarding House 6</li>
-                                        <li className="border w-80 h-80 flex items-center justify-center py-2 flex-shrink-0">Boarding House 7</li>
-                                        <li className="border w-80 h-80 flex items-center justify-center py-2 flex-shrink-0">Boarding House 8</li>
+
+                                        <li id='House'>
+                                            <img src={Dorm} alt="Dorm" className="w-full h-full object-cover" />
+                                            <p id="type">Dorm</p>
+                                            <h2 className="text-lg font-semibold"> JL Boarding House Co.</h2>
+                                            <p>Later nani</p>
+                                        </li>
+                                        <li id='House'>
+                                            <img src={Dorm}  />
+                                        </li>
+                                        <li id='House'>
+                                            <img src={Dorm}  />
+                                        </li>
+                                        <li id='House'>
+                                            <img src={Dorm}  />
+                                        </li>
+                                        <li id='House'>
+                                            <img src={Dorm}  />
+                                        </li>
+                                        <li id='House'>
+                                            <img src={Dorm}  />
+                                        </li>
+                                        <li id='House'>
+                                            <img src={Dorm}  />
+                                        </li>
+                                        <li id='House'>
+                                            <img src={Dorm}  />
+                                        </li>
+
                                     </ul>
                                 </div>
-                                <h1 className="text-xl font-bold">Featured Boarding Houses</h1>
-                                <ul className="mt-2 grid grid-cols-1 gap-3 overflow-x-auto">
-                                    <li className="border w-80 h-80 flex items-center justify-center  py-2">Boarding House 3</li>
-                                    <li className="border w-80 h-80 flex items-center justify-center  py-2">Boarding House 4</li>
-                                    <li className="border w-80 h-80 flex items-center justify-center  py-2">Boarding House 5</li>
-                                </ul>
-                            </section>
-                            <section className="p-4 min-h-screen">
-                                <h1 className="text-xl font-bold">Featured Boarding Houses</h1>
-                                <ul className="mt-2 grid grid-cols-1 gap-3 overflow-x-auto">
-                                    <li className="border w-80 h-80 flex items-center justify-center  py-2">Boarding House 3</li>
-                                    <li className="border w-80 h-80 flex items-center justify-center  py-2">Boarding House 4</li>
-                                    <li className="border w-80 h-80 flex items-center justify-center  py-2">Boarding House 5</li>
-                                </ul>
                             </section>
                         </div>
                     );

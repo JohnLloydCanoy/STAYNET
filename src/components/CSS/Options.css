@@ -4,3 +4,41 @@ ul {
 #recent {
     background-color: #1F4D32;
 }
+#House{
+
+    width:  25rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 0;
+    flex-shrink: 0;
+    border-top-left-radius: 3.5rem;
+}
+img {
+    width: 11rem;
+    height: 20rem;
+    border-top-left-radius: 3.5rem;
+}
+#House:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+h2{
+    margin-left: -2rem;
+    font-size: 1.1rem;
+    position: relative;
+    top: -6.5rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+#type{
+    margin-left: .5rem;
+    position: relative;
+    top: -8.5rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
