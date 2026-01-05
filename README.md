@@ -30,3 +30,26 @@
 
 ---
 
+## 🚀 Features
+
+- **Accommodation Listings**: Browse through a comprehensive database of lodging options
+- **Advanced Filtering**: Search by location, price, amenities, and ratings
+- **User Reviews & Ratings**: Share and read authentic guest experiences
+- **Detailed Property Information**: High-quality images, amenities, and location details
+- **Responsive Design**: Seamless experience across desktop and mobile devices
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?logo=tailwind-css&logoColor=white)
+
+- **React** - Component-based UI library
+- **Vite** - Lightning-fast build tool
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first CSS framework
+- **HTML5 & CSS3** - Modern web standards
