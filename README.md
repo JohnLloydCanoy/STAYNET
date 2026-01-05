@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # 🏨 StayNet
@@ -13,3 +12,5 @@
 [Features](#-features) • [Tech Stack](#-tech-stack) • [Getting Started](#-getting-started) • [Project Status](#-project-status) • [Contact](#-contact)
 
 </div>
+
+
