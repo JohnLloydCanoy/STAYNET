@@ -68,3 +68,41 @@
 
 ---
 
+## 🏁 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+- Git
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/JohnLloydCanoy/STAYNET.git
+   cd STAYNET
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   ```
+   Navigate to http://localhost:5173
+   ```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+---
