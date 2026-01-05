@@ -106,3 +106,45 @@ npm run build
 ```
 
 ---
+## 📊 Project Status
+
+| Component  | Progress | Status      |
+|------------|----------|-------------|
+| Frontend   | 30%      | 🚧 In Progress |
+| Backend    | 0%       | 📝 Planned    |
+| Database   | 0%       | 📝 Planned    |
+
+**Current Phase**: Frontend Development
+
+### Roadmap
+
+- [x] Project initialization
+- [x] Frontend architecture setup
+- [ ] Core UI components
+- [ ] Backend API development
+- [ ] Database schema design
+- [ ] User authentication
+- [ ] Property listing features
+- [ ] Review and rating system
+- [ ] Payment integration
+- [ ] Testing and deployment
+
+---
+
+## 📁 Project Structure
+
+```
+STAYNET/
+├── src/                  # Source files
+│   ├── components/       # React components
+│   ├── pages/           # Page components
+│   ├── assets/          # Images, fonts, etc.
+│   └── styles/          # CSS/Tailwind styles
+├── public/              # Static assets
+├── index.html           # Entry HTML file
+├── vite.config.ts       # Vite configuration
+├── tsconfig.json        # TypeScript configuration
+└── package.json         # Project dependencies
+```
+
+---
