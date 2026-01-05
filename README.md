@@ -53,3 +53,18 @@
 - **TypeScript** - Type-safe development
 - **Tailwind CSS** - Utility-first CSS framework
 - **HTML5 & CSS3** - Modern web standards
+
+- ### Backend
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-6DB33F?logo=springboot&logoColor=white)
+![Java](https://img.shields.io/badge/Java-17+-ED8B00?logo=openjdk&logoColor=white)
+
+- **Spring Boot** - Enterprise-grade Java framework
+- **Java** - Robust backend language
+
+### Database
+![MongoDB](https://img.shields.io/badge/MongoDB-7.x-47A248?logo=mongodb&logoColor=white)
+
+- **MongoDB** - Flexible NoSQL database
+
+---
+
