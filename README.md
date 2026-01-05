@@ -148,3 +148,13 @@ STAYNET/
 ```
 
 ---
+
+## 📞 Contact
+
+**John Lloyd Canoy**
+
+- 📧 Email: [canoy.john812@gmail.com](mailto:canoy.john812@gmail.com)
+- 👤 Facebook: [John Lloyd Canoy](https://facebook.com)
+- 💼 GitHub: [@JohnLloydCanoy](https://github.com/JohnLloydCanoy)
+
+---
