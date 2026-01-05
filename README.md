@@ -158,3 +158,16 @@ STAYNET/
 - 💼 GitHub: [@JohnLloydCanoy](https://github.com/JohnLloydCanoy)
 
 ---
+## 📝 License
+
+This project is currently under development. License information will be added soon.
+
+---
+
+<div align="center">
+
+**Making something out of NOTHING** ✨
+
+⭐ Star this repository if you find it helpful!
+
+</div>
